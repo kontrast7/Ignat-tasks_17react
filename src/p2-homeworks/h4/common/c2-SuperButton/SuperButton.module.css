@@ -1,0 +1,44 @@
+.default {
+  margin-top: 5px;
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: #4676d7;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+}
+
+.default:disabled {
+  margin-top: 5px;
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: rgba(118, 118, 118, 0.34);
+  color: #ffffff;
+  padding: 8px 16px;
+  font-size: 16px;
+}
+
+.default:disabled:hover {
+  background: rgba(118, 118, 118, 0.2);
+}
+
+.default:hover {
+  background: rgb(70, 94, 215);
+}
+
+.red {
+  margin-top: 5px;
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: #d74646;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+}
+
+.red:hover {
+  background: rgb(193, 61, 61);
+}

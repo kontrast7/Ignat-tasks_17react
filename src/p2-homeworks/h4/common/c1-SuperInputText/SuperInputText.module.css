@@ -1,0 +1,40 @@
+.superInput {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 10px;
+  outline: none;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.15);
+
+}
+.input:focus {
+  width: 50%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #14a100;
+  border-radius: 10px;
+  outline: none;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.15);
+}
+
+
+.errorInput {
+  margin: 10px;
+  width: 50%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #d74646;
+  border-radius: 10px;
+  outline: none;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.15);
+}
+
+.error {
+  padding: 5px;
+  color: #d74646;
+  height: 20px;
+  margin-left: 10px;
+}
+

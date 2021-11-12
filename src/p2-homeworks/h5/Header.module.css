@@ -1,0 +1,25 @@
+.link {
+  text-decoration: none;
+  margin: 7px;
+  color: #4663d7;
+}
+.link:hover {
+  color: #001a5c;
+}
+.active {
+  color: #d74646;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  transition-duration: 500ms;
+  transform: translate(-229px);
+}
+.wrapper:hover {
+  transition-duration: 500ms;
+  transform: translate(0);
+}
+.marker {
+  width: 23px;
+  height: 23px;
+}
