@@ -1,6 +1,6 @@
 {
   "name": "ignat-tasks",
-  "homepage": "https://kontrast7.github.io/Ignat-tasks",
+  "homepage": "https://kontrast7.github.io/Ignat-tasks_17react",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.4.1",
@@ -59,5 +59,4 @@
     "gh-pages": "^3.2.3",
     "prettier": "2.4.1"
   }
-  }
-
+}
