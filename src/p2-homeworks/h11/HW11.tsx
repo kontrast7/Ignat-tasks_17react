@@ -5,21 +5,23 @@ import { MinimumDistanceSlider } from "./common/slider";
 
 function HW11() {
   const [value1, setValue1] = useState(0);
-  // const [value2, setValue2] = useState(100);
-  const [value2, setValue2] = React.useState<number[]>([0, 100]);
+  const [value22, setValue22] = useState(100);
+  const [value2, setValue2] = React.useState<number[]>([value1, value22]);
+  
   return (
     <div>
       <hr />
       homeworks 11
       {/*should work (должно работать)*/}
       <div>
-        <span>{value1}</span>
+        <div>{value1}</div>
         <SuperRange value1={value1} setValue1={setValue1} />
       </div>
       <div>
-        <span>{value1}</span>
+        {/*<span>{value1}</span>*/}
+
         <MinimumDistanceSlider value2={value2} setValue2={setValue2} />
-        <span>{value2}</span>
+        {value2.map(m=> <div key={m}>{m}</div>)}
       </div>
       <hr />
       {/*для личного творчества, могу проверить*/}

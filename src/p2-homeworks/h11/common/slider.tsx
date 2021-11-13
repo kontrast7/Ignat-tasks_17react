@@ -3,17 +3,20 @@ import Box from "@mui/material/Box";
 import Slider from "@mui/material/Slider";
 
 function valuetext(value: number) {
-  return `${value}`;
+  return `${value}°C`;
 }
 
 const minDistance = 10;
 
 export type propsType = {
-  value2: number[];
-  setValue2: (value2: number[]) => void;
-};
+  value2: number[]
+  setValue2: (value: number[])=> void;
+}
 
-export const MinimumDistanceSlider = (props: propsType) => {
+export const MinimumDistanceSlider = (props: propsType) =>
+{
+  
+
   const handleChange2 = (
     event: Event,
     newValue: number | number[],
@@ -48,4 +51,4 @@ export const MinimumDistanceSlider = (props: propsType) => {
       />
     </Box>
   );
-};
+}
